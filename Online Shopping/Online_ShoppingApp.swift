@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct Online_ShoppingApp: App {
+    
+    @AppStorage("token") var token: String?
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if token != nil {
+                CustomView(image:" ic_login_apple", text: "Sign in with Apple", color: "block")
+            } else {
+                OnBordingPage()
+            }
         }
     }
 }

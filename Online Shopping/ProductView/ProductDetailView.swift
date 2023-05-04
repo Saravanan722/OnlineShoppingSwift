@@ -71,7 +71,7 @@ struct ProductDetailView: View {
                 
             }
             .frame(height: getRect().height / 2.7)
-          //  .zIndex(1)
+            .zIndex(1)
             
             //Product details...
             ScrollView(.vertical, showsIndicators: false) {
