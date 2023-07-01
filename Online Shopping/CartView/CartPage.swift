@@ -155,11 +155,6 @@ struct CartPage: View {
     }
 }
 
-struct CartPage_Previews: PreviewProvider {
-    static var previews: some View {
-        CartPage()
-    }
-}
 
 struct CartView: View {
     

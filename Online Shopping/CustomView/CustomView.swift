@@ -49,8 +49,3 @@ struct CustomView: View {
     }
 }
 
-struct CustomView_Previews: PreviewProvider {
-    static var previews: some View {
-        CustomView(image: "ic_login_apple", text: "Sign in with Apple", color: "black")
-    }
-}

@@ -66,8 +66,3 @@ struct OnBordingPage: View {
     }
 }
 
-struct OnBordingPage_Previews: PreviewProvider {
-    static var previews: some View {
-        OnBordingPage()
-    }
-}

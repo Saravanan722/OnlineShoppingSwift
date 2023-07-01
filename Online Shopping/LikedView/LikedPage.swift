@@ -150,8 +150,4 @@ struct LikedPage: View {
     }
 }
 
-struct LikedPage_Previews: PreviewProvider {
-    static var previews: some View {
-        LikedPage()
-    }
-}
+

@@ -23,13 +23,13 @@ class LoginViewModel: NSObject,ObservableObject {
     // Log Status...
     
     @AppStorage("log_Status") var log_Status: Bool = false
-    
+
     func login() {
         
         //login call action here...
         
         withAnimation {
-            log_Status = false
+            log_Status = true
         }
     }
     
@@ -37,7 +37,7 @@ class LoginViewModel: NSObject,ObservableObject {
         
         //Register call action here...
         withAnimation {
-          //  log_Status = false
+            log_Status = true
         }
     }
     
@@ -46,6 +46,8 @@ class LoginViewModel: NSObject,ObservableObject {
         // Do action here...
         
     }
+    
+    
 }
 
 extension LoginViewModel: ASAuthorizationControllerDelegate {

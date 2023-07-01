@@ -45,7 +45,6 @@ struct LoginPage: View {
                                 .blur(radius: 2)
                                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
                                 .padding(.leading, 30)
-                            
                         }
                     )
         
@@ -206,8 +205,4 @@ struct LoginPage: View {
     }
 }
 
-struct LoginPage_Previews: PreviewProvider {
-    static var previews: some View {
-        LoginPage()
-    }
-}
+

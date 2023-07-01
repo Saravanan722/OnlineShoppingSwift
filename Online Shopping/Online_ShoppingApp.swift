@@ -17,7 +17,7 @@ struct Online_ShoppingApp: App {
             if token != nil {
                 CustomView(image:" ic_login_apple", text: "Sign in with Apple", color: "block")
             } else {
-                OnBordingPage()
+                MainPage()
             }
         }
     }

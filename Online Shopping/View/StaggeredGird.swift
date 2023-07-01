@@ -89,8 +89,3 @@ struct StaggeredGird<Content: View, T: Identifiable>: View where T: Hashable {
     }
 }
 
-struct StaggeredGird_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}

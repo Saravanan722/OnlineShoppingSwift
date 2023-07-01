@@ -21,9 +21,4 @@ struct MoreProductView: View {
     }
 }
 
-struct MoreProductView_Previews: PreviewProvider {
-    static var previews: some View {
-        MoreProductView()
-    }
-}
 
